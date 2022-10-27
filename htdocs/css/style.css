@@ -441,6 +441,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  outline: none !important;
+  border: 0 !important;
 }
 
 .mobile-menu .header-links .menu-links li a:not(.menu-sublink).show {
