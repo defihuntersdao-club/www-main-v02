@@ -86,6 +86,12 @@ div {
 
 /* header */ 
 
+header .container-fluid {
+    @media (min-width: 992px) {
+        padding: 0 20px;
+    }
+}
+
 header {
     position: relative;
     width: 100%;
@@ -155,6 +161,9 @@ header {
                 position: relative;
                 top: 1px;
                 left: 2px;
+                @media (max-width: 991px) {
+                    left: -2px;
+                }
             }
         }
     }
