@@ -3,7 +3,7 @@ window.onload = function() {
   setTimeout(function () {
    let loader = document.querySelector('.loader');
    loader.parentNode.removeChild(loader);
-  }, 500);
+  }, 50);
 
 
   function autoPlayYouTubeModal() {
